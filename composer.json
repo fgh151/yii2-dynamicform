@@ -1,40 +1,29 @@
 {
-    "name": "evgenidev/yii2-dynamicform",
-    "description": "It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.",
-    "keywords": [
-        "wbraganca",
-        "evgenidev",
-        "yii2",
-        "extension",
-        "widget",
-        "yii2-dynamicform",
-        "copy DOM element",
-        "yii2 dynamic form"
-    ],
-    "license": "proprietary",
-    "support": {
-        "issues": "https://github.com/evgenidev/yii2-dynamicform/issues",
-        "wiki": "https://github.com/evgenidev/yii2-dynamicform/wiki/",
-        "source": "https://github.com/evgenidev/yii2-dynamicform"
-    },
+    "name": "fgh151/yii2-dynamicform",
+    "description": "Yii2 dynamic form widget",
     "type": "yii2-extension",
+    "keywords": ["yii2","extension"," dynamicform"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "Miroshnichenko Evgeniy",
-            "email": "evgeni_mir@mail.ru"
+            "name": "Fedor B Gorsky",
+            "email": "fedor@support-pc.org",
+            "homepage": "https://openitstudio.ru"
+        },
+        {
+            "name": "Wanderson Bragança",
+            "email": "wanderson.wbc@gmail.com",
+            "homepage": "https://wbraganca.com"
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.5",
-        "symfony/css-selector": "~2.8|~3.0",
-        "symfony/dom-crawler": "~2.8|~3.0"
+        "yiisoft/yii2": "~2.0.0",
+        "symfony/dom-crawler": "^6.4",
+        "symfony/css-selector": "^6.4"
     },
     "autoload": {
         "psr-4": {
-            "EvgeniDev\\Yii2\\DynamicForm\\": "src"
+            "fgh151\\dynamicform\\": "src"
         }
-    },
-	"replace": {
-		"wbraganca/yii2-dynamicform":"2.0.*"
-	}
+    }
 }
